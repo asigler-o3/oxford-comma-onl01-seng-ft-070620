@@ -18,7 +18,6 @@ def oxford_comma (array)
  array["kiwi", "durian", "starfruit"].join(", ") + ", and " + array[-1] do |string|
  puts string
  end
- binding.pry
 end
 
 #array=[]
