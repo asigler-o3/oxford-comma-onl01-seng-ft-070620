@@ -1,7 +1,7 @@
 
 def oxford_comma (array)
   result = []
-  array["kiwi"].join do |string|
+  ["kiwi"].join do |string|
   puts string
  end
 end
