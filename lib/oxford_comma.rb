@@ -1,4 +1,4 @@
-
+require 'pry'
 def oxford_comma (array)
   result = []
   array["kiwi"].join do |string|
@@ -17,6 +17,7 @@ def oxford_comma (array)
  result = []
  array["kiwi", "durian", "starfruit"].join(", ") + ", and " + array[-1] do |string|
  puts string
+binding.pry
  end
 end
 
