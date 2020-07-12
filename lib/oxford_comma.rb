@@ -1,4 +1,4 @@
-require 'pry'
+
 def oxford_comma (array)
   result = []
   array["kiwi"].join do |string|
