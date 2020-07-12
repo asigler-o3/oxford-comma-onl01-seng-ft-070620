@@ -8,7 +8,7 @@ end
 
 def oxford_comma (array)
   result = []
-  array["kiwi", "durian"].join(" and ") do |string|
+  ["kiwi", "durian"].join(" and ") do |string|
   puts string
  end
 end
